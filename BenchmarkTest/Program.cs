@@ -7,7 +7,8 @@ namespace BenchmarkTest
     {
         static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<InvokeTest>();
+            // BenchmarkRunner.Run<InvokeTest>();
+            BenchmarkRunner.Run<ExpressionTest>();
             Console.ReadLine();
         }
     }
