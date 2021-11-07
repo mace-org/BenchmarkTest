@@ -8,7 +8,8 @@ namespace BenchmarkTest
         static void Main(string[] args)
         {
             // BenchmarkRunner.Run<InvokeTest>();
-            BenchmarkRunner.Run<ExpressionTest>();
+            // BenchmarkRunner.Run<ExpressionTest>();
+            BenchmarkRunner.Run<CreateInstanceTest>();
             Console.ReadLine();
         }
     }
